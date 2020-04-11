@@ -21,6 +21,7 @@ Replace the last part of the first line with the original repository clone URL
 This links the fork back to the original repository as a remote, which we’ll name upstream, and then fetch it.
 
 ```git remote add --track master upstream git@github.com:pratikbarjatya/covid19India.git```
+
 ```git fetch upstream```
 
 ## 4. Create a new branch for your changes
@@ -37,6 +38,7 @@ At this point, you’re isolated in the new branch you just created, and it’s 
 You’re probably used to these commands. Add the files you’ve changed and commit them with a descriptive message.
 
 ```git add .```
+
 ```git commit -m "Fix/Add new changes to bla bla file"```
 
 The one difference is the branch you’re pushing to. You likely usually push to master, 
