@@ -10,3 +10,8 @@ The number of new cases are increasing day by day around the world. This dataset
 State level data comes from [Ministry of Health & Family Welfare](https://www.mohfw.gov.in/)
 
 Individual level data comes from [covid19india API](https://api.covid19india.org/raw_data.json)
+
+## Acknowledgements
+Thanks to Indian [Ministry of Health & Family Welfare](https://www.mohfw.gov.in/) for making the data available to general public.
+
+Thanks to [covid19india.org](https://covid19india.org) for making the individual level details and testing details available to general public.
