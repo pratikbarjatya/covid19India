@@ -2,7 +2,7 @@
 
 ## 1. Forking the Repository
 Assuming you’re using GitHub, this step is easy. 
-Just find the repository you’re contributing to and press the Fork button in the upper left. 
+Just find the repository you’re contributing to and press the Fork button in the upper Right. 
 This will create an exact copy of the repository (and all of its branches) under your own username.
 
 ## 2. Clone your new fork locally
