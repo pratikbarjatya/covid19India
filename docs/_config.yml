@@ -23,11 +23,11 @@ title: Example Dashboard
 email: support@github.com
 
 description: A Dashboard for Covid19, generated automatically by GitHub Pages.
-baseurl: "/actions-covid19" # the subpath of your site, e.g. /blog
-url: "https://pratikbarjatya/covid19India.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "covid19India" # the subpath of your site, e.g. /blog
+url: "https://pratikbarjatya.github.io/covid19India" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-repo_url: "https://pratikbarjatya/covid19India.github.io"
+repo_url: "https://pratikbarjatya.github.io/covid19India"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -44,7 +44,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Edit On GitHub":
-    - "//github.com/pratikbarjatya/covid19India/actions-covid19/tree/master/docs"
+    - "//github.com/pratikbarjatya/covid19India/tree/master/docs"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: ""
