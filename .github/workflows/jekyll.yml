@@ -13,10 +13,6 @@ jobs:
     - uses: actions/checkout@master
       with:
         persist-credentials: false
-    - name: Ensure Clean Jupyter Notebooks
-      uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
-      with: 
-        disable-checks: true 
     - name: Copy Repository Contents
       run: |
           chmod -R 777 docs/docs
@@ -36,3 +32,7 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./docs/_site
+    - name: Ensure Clean Jupyter Notebooks
+      uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+      with: 
+        disable-checks: true 
