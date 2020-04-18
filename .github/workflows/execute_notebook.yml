@@ -16,7 +16,7 @@ jobs:
         GITHUB: ${{ toJson(github) }}
       with:
         notebook: "Covid19India.ipynb"
-        params: "Covid19IndiaOutput.ipynb"
+        params: "Covid19IndiaOutput.json"
         isReport: False
         poll: True
     - uses: actions/upload-artifact@master
