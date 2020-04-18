@@ -15,17 +15,10 @@ jobs:
         SECRETS: ${{ toJson(secrets) }}
         GITHUB: ${{ toJson(github) }}
       with:
-        notebook: "notebook1.ipynb"
-        params: "PATHTOPARAMS.json"
+        notebook: "Covid19India.ipynb"
+        params: "Covid19IndiaOutput.json"
         isReport: False
         poll: True
-    - uses: yaananth/run-notebook@v1
-      env:
-        RUNNER: ${{ toJson(runner) }}
-        SECRETS: ${{ toJson(secrets) }}
-        GITHUB: ${{ toJson(github) }}
-      with:
-        notebook: "notebook2.ipynb"
     - uses: actions/upload-artifact@master
       if: always()
       with:
