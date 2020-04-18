@@ -16,20 +16,20 @@ jobs:
     - name: Ensure Clean Jupyter Notebooks
       uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
       with: 
-        disable-checks: # optional, default is 
+        disable-checks: true 
     - name: Copy Repository Contents
       run: |
           chmod -R 777 docs/docs
           ./action_files/copy_files.sh
     - name: setup directories for Jekyll build
-        run: |
+      run: |
           cd docs
           rm -rf _site
           sudo chmod -R 777 .
     - name: Jekyll build
-        uses: docker://jekyll/jekyll
-        with:
-          args: /bin/bash -c "cd docs; bundle install; bundle exec jekyll build"      
+      uses: docker://jekyll/jekyll
+      with:
+        args: /bin/bash -c "cd docs; bundle install; bundle exec jekyll build"      
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
