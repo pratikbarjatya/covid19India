@@ -16,7 +16,7 @@ jobs:
         GITHUB: ${{ toJson(github) }}
       with:
         notebook: "notebook1.ipynb"
-        params: "PATHTOPARAMS.json"
+        params: ("alpha":0.6,"ratio":0.1)
         isReport: False
         poll: True
     - uses: yaananth/run-notebook@v1
