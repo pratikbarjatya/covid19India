@@ -23,7 +23,7 @@ title: Example Dashboard
 email: support@github.com
 
 description: A Dashboard for Covid19, generated automatically by GitHub Pages.
-baseurl: "covid19India" # the subpath of your site, e.g. /blog
+baseurl: "/covid19India" # the subpath of your site, e.g. /blog
 url: "https://pratikbarjatya.github.io/covid19India" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
