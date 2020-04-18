@@ -16,7 +16,7 @@ jobs:
         GITHUB: ${{ toJson(github) }}
       with:
         notebook: "notebook1.ipynb"
-        params: ("alpha":0.6,"ratio":0.1)
+        params: "Covid19India.ipynb"
         isReport: False
         poll: True
     - uses: yaananth/run-notebook@v1
