@@ -15,6 +15,7 @@ jobs:
         persist-credentials: false
     - name: Copy Repository Contents
       run: |
+          chmod -R 777 ./action_files/
           chmod -R 777 docs/docs
           ./action_files/copy_files.sh
     - name: setup directories for Jekyll build
