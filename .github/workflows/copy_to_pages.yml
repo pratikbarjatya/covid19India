@@ -33,7 +33,3 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./docs/_site
-    - name: Ensure Clean Jupyter Notebooks
-      uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
-      with: 
-        disable-checks: true 
