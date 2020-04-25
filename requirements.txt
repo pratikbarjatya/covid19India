@@ -5,3 +5,4 @@ pandas-profiling
 seaborn
 matplotlib
 plotly
+folium
