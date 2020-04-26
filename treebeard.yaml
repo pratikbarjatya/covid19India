@@ -1,0 +1,7 @@
+ignore:	
+- .git	
+- .ipynb_checkpoints	
+notebooks:	
+- "**/*.ipynb"	
+output_dirs:	
+- output
