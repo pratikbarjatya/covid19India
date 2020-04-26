@@ -1,5 +1,4 @@
 ![CI](https://github.com/pratikbarjatya/covid19India/workflows/CI/badge.svg?branch=master)
-[![Treebeard notebook status](https://api.treebeard.io/7096fb4ff3/covid19India/master/buildbadge)](https://treebeard.io/admin/7096fb4ff3/covid19India/master "Latest notebook run")
 
 # covid19India
 EDA for Covid-19 India
