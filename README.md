@@ -16,3 +16,7 @@ Individual level data comes from [covid19india API](https://api.covid19india.org
 Thanks to Indian [Ministry of Health & Family Welfare](https://www.mohfw.gov.in/) for making the data available to general public.
 
 Thanks to [covid19india.org](https://covid19india.org) for making the individual level details and testing details available to general public.
+
+### Connect with us: - 
+**Telegram** - https://t.me/joinchat/QIP11xtVtLQCiamc0Dag1A
+
