@@ -18,5 +18,5 @@ Thanks to Indian [Ministry of Health & Family Welfare](https://www.mohfw.gov.in/
 Thanks to [covid19india.org](https://covid19india.org) for making the individual level details and testing details available to general public.
 
 ### Connect with us: - 
-**Telegram** - https://t.me/joinchat/QIP11xtVtLQCiamc0Dag1A
+**Telegram** - https://t.me/joinchat/QIP11xtVtLQOtxhRpBpmHw
 
